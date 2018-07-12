@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Movie review</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styling.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid" id="inputwindow">
+  <h1 id="heading1" style="text-align:center;color: #ffffff;">Movie Review</h1>
+  <p id="heading2" style="text-align:center;">See the review and then watch a movie.....</p>
+
+  <div class="row" id="input">
+    
+    <div class="col" style="background: linear-gradient(to top right, #ffffff 5%, #ccccff 96%);">
+    
+    <div class="form-group">
+      <label for="usr">Title:</label>
+    <input type="text" class="form-control" id="title" name="" >
+    </div>
+    
+    </div>
+
+    <div class="col" style="background: linear-gradient(to top right, #ffffff 5%, #ccccff 96%);">
+    <div class="form-group" >
+      <label for="usr">IMDB Id:</label>
+      <input type="text" class="form-control" id="imdbid" name="" >
+    </div>
+  
+    </div>
+
+    <div class="col" style="background: linear-gradient(to top right, #ffffff 5%, #ccccff 96%);">
+    
+    <div class="form-group" >
+      <label for="usr">Year:</label>
+
+
+      <input type="text" class="form-control" id="year" >
+    </div>
+   </div>
+
+  </div>
+
+</div>
+<br>
+<br>
+<div class="container">
+  <div align="center">
+   <div class="row">
+     <div class="col-sm-6">
+        <button  class="btn btn-outline-success"  id="submit" aria-haspopup="true" aria-expanded="false" style="width:50%"><font size="4">Find Movie</font></button>
+     </div>
+    <div class="col-sm-6">
+         <button class="btn btn-outline-success" " id="find" aria-haspopup="true" aria-expanded="false" style="width:50%"onClick="window.location.reload()"><font size="4">Reset</font></button>
+     </div>
+</div>
+   
+<br>
+
+<div  id="outputwindow">
+<div class="row">
+  <div class="col-sm-1" >
+    
+  </div>
+ <div class="col-sm-5">
+<br>
+<br>
+   <label>Title:</label>
+
+ <div id="title_o"></div>
+     
+    
+<br>
+  <label>Year:</label>
+
+<div id="year_o"></div>
+  
+  <br>
+  <label>Rated:</label>
+
+<div id="rated_o"></div>
+  <br>
+  <label>Released:</label>
+
+<div id="released_o"></div>
+    <br>
+  <label>Runtime:</label>
+
+<div id="runtime_o"></div>
+    <br>
+  <label>Genre:</label>
+
+<div id="genre_o"></div>
+    <br>
+  <label>Director:</label>
+
+<div id="director_o"></div>
+    <br>
+  <label>Writer:</label>
+
+<div id="writer_o"></div>
+    <br>
+  <label>Actors:</label>
+  <div id="actors_o"></div>
+
+<div id="rating_o"></div>
+    <br>
+  <label>Plot:</label>
+
+<div id="plot_o"></div>
+    <br>
+  <label>Language:</label>
+
+<div id="language_o"></div>
+    <br>
+  <label>Country:</label>
+
+<div id="country_o"></div>
+    <br>
+  <label>Awards:</label>
+
+<div id="awards_o"></div>
+    <br>
+</div>
+
+
+<div class="col-sm-6">
+<br>
+<br>
+  <label>Poster:</label>
+
+<div id="poster_o">
+  <img src="" id="image">
+</div>
+    <br>
+  
+  <label>imdbRating:</label>
+
+<div id="imdbrating_o"></div>
+    <br>
+  <label>imdbVotes:</label>
+
+<div id="imdbvotes_o"></div>
+    <br>
+  <label>IMDB ID:</label>
+
+<div id="imdbid_o"></div>
+    <br>
+  <label>Type:</label>
+
+<div id="type_o"></div>
+  <br>
+
+  <label>Metascore:</label>
+
+<div id="metascore_o"></div>
+  <br>
+  <label>DVD:</label>
+
+<div id="dvd_o"></div>
+    <br>
+  <label>BoxOffice:</label>
+
+<div id="boxoffice_o"></div>
+    <br>
+  <label>Production:</label>
+
+<div id="production_o"></div>
+  <br>
+  <label>Website:</label>
+
+<div id="website_o"></div>
+    <br>
+ <br>
+ <br>
+ <p style="text-align: right-bottom;font-size:10px;">A_N_J</p>
+   <div class="col-sm-1" >
+    
+  </div>
+</div>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="index.js"></script>
+
+
+</body>
+</html>

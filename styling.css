@@ -1,0 +1,92 @@
+body{
+
+	border : 30px;
+	border-color: #cfcfcf;
+	padding: 20px;
+	background-image: url("reel.jpg");
+	opacity: 0.9;
+
+}
+
+
+
+#inputwindow{
+
+	opacity: 1;
+}
+
+
+#input{
+	text-align: center;
+    opacity: 1;
+
+}
+
+#heading1{
+	color: #ffffff;
+	font-family: 'Nosifer' ;
+	font-size: 200%;
+
+}
+
+#heading2{
+	color: #ffffff;
+	font-family: 'calibri' ;
+	font-size: 120%;
+}
+
+
+
+#outputwindow{
+display: none;
+border: 2px solid black;
+margin: 50px;
+padding: 5px;
+background: linear-gradient(to top right, #ffffff 5%, #669999 96%);
+opacity: 
+}
+
+
+
+#title_o,#imdbrating_o{
+	color: black;
+    font-family: Sirin Stencil;
+    font-size: 160%;
+
+}
+
+
+#plot_o{
+	color : blue;
+	font-family: calibri;
+	font-size: 120%
+}
+
+#director_o{
+     color: red;
+    font-family: verdana;
+    font-size: 120%;
+
+}
+
+
+#find,#submit{
+
+	text-align: center;
+	background-color: ;
+	
+}
+
+@media screen and (max-width: 620px) {
+   
+#outputwindow{
+display: none;
+border: 2px solid black;
+margin: 2px;
+padding: 2px;
+background: linear-gradient(to top right, #ffffff 5%, #669999 96%);
+text-align: center;
+
+}
+
+}
